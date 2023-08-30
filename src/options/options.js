@@ -391,7 +391,7 @@ export const composicionEscenario = {
           opciones: [
             {
               icon: "fa-solid fa-compact-disc",
-              texto: "Hacer el taller sola",
+              texto: "Hacer el taller sola.",
               resultado:
                 "Demis empieza su taller y se dice 'Me gusta el yaoi, el yaoi es vida! Pero... Podria sacar una cancion de esto ? Tambien me gustan las orcas, me gusta mis gallinas, me gusta el color rosa, me gustas los juegos y la alegria. Me gusta la amistad!. Me gusta como se ve la nieve, me gusta la comida saludable, me gusta el frio y los paisajes de la sierra, me gusta ver las nubes cuando acompañan las montañas' . Demis con un alma brillante e inocente le comenta al profesor sus gustos. Este le comenta que le parece fantastico que tenga tantas cosas en mente que le agraden, ahora puede enfocarse en describir que sentimientos envuelven esas cosas. Sin embargo, tambien se le puede dar musica a otros sentimientos, de cosas que no nos gustan tal vez... Demis piensa 'eeeee no, para que pensar en lo que no me gusta. En lo injusto? Pa que querria hacer una cancion sobre la injustica '. Demis estaba esforzandose mucho. Este es el fin de esta linea. Lo que le resta a Demis es conectarse con sus sentimientos, el taller fue solo un acercamiento y la vida de artista que le resta vivir lo logrará sin duda.",
             },
@@ -503,12 +503,12 @@ export const composicionEscenario = {
                             { icon: "fa-solid fa-compact-disc",
                               texto: "...",
                               resultado:
-                                " Una mañana, bajo la sombra del Chimborazo, sus miradas se cruzaron en una flor de intensos colores. Un vínculo inexplicable se formó en ese instante, y la rivalidad inicial se transformó en algo más profundo. Desafiaron al viento en una carrera intrépida hacia el corazón del bosque, demostrando así su resistencia y compromiso mutuo. ",
+                                "  Una mañana, bajo la sombra del Chimborazo, sus miradas se cruzaron en una flor de intensos colores. Un vínculo inexplicable se formó en ese instante, y la rivalidad inicial se transformó en algo más profundo. Desafiaron al viento en una carrera intrépida hacia el corazón del bosque, compitiendo y jugando juntos. Les encantaba jugar juntos!",
                               opciones: [
                                 { icon: "fa-solid fa-compact-disc",
                                   texto: "...",
                                   resultado:
-                                    " Una mañana, bajo la sombra del Chimborazo, sus miradas se cruzaron en una flor de intensos colores. Un vínculo inexplicable se formó en ese instante, y la rivalidad inicial se transformó en algo más profundo. Desafiaron al viento en una carrera intrépida hacia el corazón del bosque, compitiendo y jugando juntos. Les encantaba jugar juntos!",
+                                    " Sin darse cuenta habian formado una conexion muy bonita.",
                                     opciones: [{
                                       texto: " ... ",
                                       resultado:"Los momentos que compartían se convirtieron en un refugio, un espacio donde podían ser ellos mismos sin restricciones ni juicios. Contaban sus sueños, sus deseos y sus miedos, creando un lazo profundo y significativo. A medida que se sumergían en las vidas y las historias del otro, su amor y comprensión mutuos se fortalecían. ",

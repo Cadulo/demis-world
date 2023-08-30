@@ -20,7 +20,7 @@ function App() {
   }, []);
   
   return (
-    <SelectionProvider>\
+    <SelectionProvider>
       <Navbar></Navbar>
       <Routes>
         <Route path="/demis-world" element={<Welcome />} />

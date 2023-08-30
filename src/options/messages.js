@@ -21,7 +21,7 @@ export const introBiologaMar= {image:OceanSceneImage,text: ["Empieza su entrenam
 
 export const introMusic= {text:[
     "Demis se encuentra en los últimos años de la carrera de música, pero experimenta una profunda sensación de desorientación, ya que no está segura de sus pasos a seguir. Siente una gran afinidad por el arte, disfruta de la riqueza de los colores y se deleita en vivir plenamente. El acto de bailar le brinda una alegría inmensa, y encuentra verdadero placer en interpretar canciones que resuenan con sus gustos personales. La idea de realizar estas actividades por mera obligación o deber le resulta totalmente desagradable..",
-    "Son los meses frios del año, hay un viento helado por las calles de la ciudad. La universidad ha preparado una semana llena de seminarios y charlas sobre el arte. Demis siente curiosidad y asiste. Sin embargo, debe decidir que temas le interesan conocer más ya que no se puede asistir a todo por temas de horario."
+    "Son los meses frios del año y hay un viento helado por las calles de la ciudad. La universidad ha preparado una semana llena de seminarios y charlas sobre el arte. Demis siente curiosidad y asiste. Sin embargo, debe decidir que temas le interesan conocer más ya que no se puede asistir a todo por temas de horario."
 ]}
 
 export const introComposicion= {image:CharlaScene,text:[

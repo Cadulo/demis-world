@@ -4,7 +4,7 @@ import { OptionCard } from "../components/OptionCard";
 import { Banner } from "../components/Banner";
 import { Button } from "../components/Button";
 import { useSelectionContext } from "../context/SelectionContext";
-
+import { useNavigate } from "react-router-dom";
 
 function Game() {
   const {
@@ -18,6 +18,11 @@ function Game() {
   } = useSelectionContext();
   const [currentStep, setCurrentStep] = useState(scene);
   let imageUrl = "";
+
+  const onNext = () => {
+      navigate("/demis-world/");
+    }
+
   const handleOptionClick = (index) => {
     const selectedOption = currentStep.opciones[index];
 
@@ -61,11 +66,18 @@ function Game() {
       </div>
 
       <div className="flex justify-center mt-4">
-        {currentStep.opciones && (
+        {currentStep.opciones ? (
           <Button
             text="Continuar"
             onClick={() => {
               handleOptionClick(options.indexOf(selection));
+            }}
+          ></Button>
+        ):(
+          <Button
+            text="Volver al inicio"
+            onClick={() => {
+              onNext()
             }}
           ></Button>
         )}

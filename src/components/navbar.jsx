@@ -8,7 +8,7 @@ export const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-3 py-4 items-center font-comic">
           <h1 className="text-xl font-bold text-white">
-            <Link to={"/"}>Demis'World </Link>
+            <Link to={"/"}>Demis's World </Link>
           </h1>
           <div className="flex justify-center">
             {/* Aquí puedes colocar tu imagen */}
