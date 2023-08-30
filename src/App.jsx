@@ -16,7 +16,7 @@ function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    navigate("/demis-world"); // Redirige a la página de bienvenida al cargar/reiniciar la aplicación
+    navigate("/demis-world/"); // Redirige a la página de bienvenida al cargar/reiniciar la aplicación
   }, []);
   
   return (

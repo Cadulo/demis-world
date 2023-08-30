@@ -18,7 +18,7 @@ function Game() {
   } = useSelectionContext();
   const [currentStep, setCurrentStep] = useState(scene);
   let imageUrl = "";
-
+  const navigate = useNavigate();
   const onNext = () => {
       navigate("/demis-world/");
     }
@@ -75,10 +75,8 @@ function Game() {
           ></Button>
         ):(
           <Button
-            text="Volver al inicio"
-            onClick={() => {
-              onNext()
-            }}
+            text="Inicio"
+            onClick= {()=>navigate("/demis-world/") }
           ></Button>
         )}
       </div>
